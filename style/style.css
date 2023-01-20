@@ -49,19 +49,11 @@ text-input {
     padding: 15px;
 }
 
-cite {
-    margin: 16px 32px;
-    font-weight: bold;
-}
-
-
-
-[contenteditable='true'] {
-    caret-color:blue;
-    /* border: 1px solid white; */
-}
 
 .active{
-    background-color: red;
+    background-color: #e0e9ff
 }
 
+#fontname {
+    align-items: left;
+}
