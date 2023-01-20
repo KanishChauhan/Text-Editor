@@ -13,24 +13,26 @@
 
     <div class="container">
         <div class="options">
-           <button id="bold" class="btn btn-sm nor "> 
+
+            
+           <button id="bold" class="btn btn-sm nor format"> 
                <i class="bi bi-type-bold"></i>
         </button>
-           <button id="italic" class="btn btn-sm nor"> 
+           <button id="italic" class="btn btn-sm nor format"> 
                <i class="bi bi-type-italic"></i>
         </button>
-           <button id="underline" class="btn btn-sm nor">  
+           <button id="underline" class="btn btn-sm nor format">  
                <i class="bi bi-type-underline"></i>
         </button>
-           <button id="strike" class="btn btn-sm nor"> 
+           <button id="strike" class="btn btn-sm nor format"> 
                <i class="bi bi-type-strikethrough"></i>
         </button>
-        <button id ="sub" class="btn btn-sm nor"> 
+        <button id ="sub" class="btn btn-sm nor script"> 
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-subscript" viewBox="0 0 16 16">
                 <path d="m3.266 12.496.96-2.853H7.76l.96 2.853H10L6.62 3H5.38L2 12.496h1.266Zm2.748-8.063 1.419 4.23h-2.88l1.426-4.23h.035Zm6.132 7.203v-.075c0-.332.234-.618.619-.618.354 0 .618.256.618.58 0 .362-.271.649-.52.898l-1.788 1.832V15h3.59v-.958h-1.923v-.045l.973-1.04c.415-.438.867-.845.867-1.547 0-.8-.701-1.41-1.787-1.41-1.23 0-1.795.8-1.795 1.576v.06h1.146Z"/>
             </svg>
         </button>
-        <button id="sup" class="btn btn-sm nor"> 
+        <button id="sup" class="btn btn-sm nor script"> 
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-superscript" viewBox="0 0 16 16">
                 <path d="m4.266 12.496.96-2.853H8.76l.96 2.853H11L7.62 3H6.38L3 12.496h1.266Zm2.748-8.063 1.419 4.23h-2.88l1.426-4.23h.035Zm5.132-1.797v-.075c0-.332.234-.618.619-.618.354 0 .618.256.618.58 0 .362-.271.649-.52.898l-1.788 1.832V6h3.59v-.958h-1.923v-.045l.973-1.04c.415-.438.867-.845.867-1.547 0-.8-.701-1.41-1.787-1.41C11.565 1 11 1.8 11 2.576v.06h1.146Z"/>
             </svg>
@@ -50,40 +52,42 @@
         <button id="link" class="btn btn-sm nor"> 
             <i class="bi bi-link-45deg"></i>
      </button>
-     <button id="txtl" class="btn btn-sm nor"> 
+
+     <!-- align -->
+     <button id="txtl" class="btn btn-sm  nor algn"> 
          <i class="bi bi-text-left"></i>
         </button>
-        <button id="txtc"  class="btn btn-sm nor"> 
+        <button id="txtc"  class="btn btn-sm  nor algn"> 
             <i class="bi bi-text-center"></i>
         </button>
-        <button  id="txtr" class="btn btn-sm nor"> 
+        <button  id="txtr" class="btn btn-sm  nor algn"> 
             <i class="bi bi-text-right"></i>
         </button>
-        <button  id="justify" class="btn btn-sm nor"> 
+        <button  id="justify" class="btn btn-sm nor algn"> 
             <i class="bi bi-justify"></i>
         </button>
-        <button  id="txtil" class="btn btn-sm nor"> 
-            <i class="bi bi-text-indent-left"></i>
+        <button  id="txtil" class="btn btn-sm  nor spacing"> 
+            <i class="bi bi-text-indent-left "></i>
      </button>
-        <button id="txtir"  class="btn btn-sm nor"> 
+        <button id="txtir"  class="btn btn-sm  nor spacing "> 
             <i class="bi bi-text-indent-right"></i>
         </button>          
             
-            <select id='fontname' class="btn-sm btn border-dark form-select-sm adv" name="" id="formatblock" >
+            <select id='fontname' class="btn-sm btn border-dark form-select-sm adv" name=""  >
+               
+            </select>
+            
+            <select id="fontsize"  class="btn-sm btn border-dark form-select-sm adv" name=""  >
+                
+            </select>
+            
+            <select id="formatblock" class="btn-sm btn border-dark form-select-sm adv" name="" id="formatblock" >
                 <option value="h1">h1</option>
                 <option value="h2">h2</option>
                 <option value="h3">h3</option>
                 <option value="h4">h4</option>
                 <option value="h5">h5</option>
                 <option value="h6">h6</option>
-            </select>
-            
-            <select id="fontsize"  class="btn-sm btn border-dark form-select-sm adv" name="" id="font-name" >
-                
-            </select>
-            
-            <select id="formatblock" class="btn-sm btn border-dark form-select-sm adv" name="" id="formatblock" >
-               
             </select>
 
             <div class="fontcolor">
